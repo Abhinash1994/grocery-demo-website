@@ -1,0 +1,34 @@
+.section145 {
+    padding: 47px 0 0;
+    width: 100%;
+    display: block;
+}
+.main-title-tt {
+    margin-bottom: 27px;
+    display: flex;
+    align-items: flex-end;
+}
+.main-title-left {
+    margin-right: auto;
+}
+.main-title-left span {
+    font-size: 14px;
+    font-weight: 600;
+    text-align: left;
+    color: #f55d2c;
+    margin-bottom: 10px;
+    display: block;
+}
+.main-title-left h2 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #2b2f4c;
+    margin-top: 0;
+    display: block;
+}
+.best-offer-item {
+    display: block;
+    width: 100%;
+    margin-bottom: 30px;
+    position: relative;
+}
