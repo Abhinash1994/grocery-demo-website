@@ -1,11 +1,13 @@
 import React, { Component } from 'react'
 import Slider from "react-slick";
+import { connect } from 'react-redux';
+import { addToCart } from '../../../../../store/actions/cartActions';
 
 import { Link } from 'react-router-dom';
 import GroceryStampleDetails from '../../../../services/GroceryStampleDetails';
 import CircularProgress from '@material-ui/core/CircularProgress';
 
-export default class Topstample extends Component {
+class Topstample extends Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -113,3 +115,4 @@ export default class Topstample extends Component {
         )
     }
 }
+export default connect(null, { addToCart })(Topstample);
