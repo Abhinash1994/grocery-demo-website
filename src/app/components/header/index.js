@@ -105,6 +105,7 @@ class Navigation extends Component {
                   <ul className="list-inline main-nav-right">
                     <li className="list-inline-item">
                       <a
+                        href="/"
                         data-target="#bd-example-modal"
                         data-toggle="modal"
                         className="btn btn-link"
