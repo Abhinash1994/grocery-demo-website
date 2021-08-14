@@ -100,7 +100,8 @@ class Checkout extends Component {
 
   handlePaymentSystem = async (e) => {
     e.preventDefault();
-    const { customer, grandTotal, deliveryAddress, paymentmethod } = this.state;
+    // paymentmethod;
+    const { customer, grandTotal, deliveryAddress } = this.state;
     let { cartItems } = this.props;
     let orderId = Math.floor(
       Math.random() * Math.floor(Math.random() * Date.now())
